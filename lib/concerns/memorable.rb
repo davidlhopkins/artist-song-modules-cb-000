@@ -6,7 +6,7 @@ module Memorable
     end
   end
 
-    def self.count
-      @@artists.count
-    end
+  def self.count
+    @@artists.count
+  end
 end
