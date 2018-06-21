@@ -1,14 +1,12 @@
 module Memorable
-  module InstanceMethods
+  module ClassMethods
 
     def self.reset_all
       all.clear
     end
   end
 
-  module ClassMethods
     def self.count
       @@artists.count
     end
-  end
 end
