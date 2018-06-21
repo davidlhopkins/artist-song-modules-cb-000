@@ -7,7 +7,7 @@ require_relative '../lib/concerns/paramable'
 class Artist
   extend Memorable
   extend Findable
-  extend Paramble
+  include Paramble
 
   attr_accessor :name
   attr_reader :songs
